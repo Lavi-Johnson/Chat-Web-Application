@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+	<!-- Servlet Configurations -->
+	<!-- ++ Servlets ++ -->
+	
+	<servlet>
+    	<servlet-name>Chat</servlet-name>
+    	<jsp-file>/chat.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>ChatController</servlet-name>
+		<servlet-class>johnson.lavi.controllers.ChatController</servlet-class>
+	</servlet>
+	
+	<!-- ++ Servlet Mappings ++ -->
+	
+	<servlet-mapping>
+    	<servlet-name>Chat</servlet-name>
+    	<url-pattern>/chat</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChatController</servlet-name>
+		<url-pattern>/SendMessage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChatController</servlet-name>
+		<url-pattern>/GetMessages</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+	    <welcome-file>chat.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,7 @@
+johnson\lavi\dao\ChatDaoInterface.class
+johnson\lavi\domain\Message.class
+johnson\lavi\dao\ChatDao.class
+johnson\lavi\services\ChatService.class
+johnson\lavi\dao\ChatSqlDao.class
+johnson\lavi\controllers\ChatController.class
+johnson\lavi\domain\User.class

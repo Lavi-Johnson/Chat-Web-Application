@@ -1,0 +1,78 @@
+/* Dark Green = 168C2E */
+/* Light Green = 2DBE49*/
+/* Aqua = D7F6E7*/
+
+*{
+	border-radius: 5px;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background: url("../Images/AbstractEmeraldFlow.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*==== Classes ====*/
+
+.Button{
+	color: white;
+	background: black;
+	border: 2px outset green;
+}
+
+.ChatDisplay{
+	border: solid 1px green;
+	margin: 5px;
+	padding: 5px;
+	background: white;
+}
+
+.ChatText{
+	color: green;
+}
+
+.ColorPicker{
+	width: 25px;
+	background-color: white;
+}
+
+.MainHeader{
+	text-shadow: 0 0 2px green;
+	margin: 10px 20px;
+}
+
+.TextInput{
+	width: 200px;
+	border: solid 1px black;
+	margin: 5px;
+}
+
+.UserName{
+	font-weight: bold;
+}
+
+/*==== IDs ====*/
+
+#chat{
+	border: solid 1px black;
+	margin: 5px 50px;
+	padding: 5px;
+	background-color: rgba(215, 246, 231, .5);
+}
+
+#chatInput{
+}
+
+#userNameInput{
+	float: right;
+}
+
+#userColorPicker{
+	float: right;
+}
